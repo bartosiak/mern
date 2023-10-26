@@ -8,4 +8,4 @@ const sendForm = (event) => {
 
 let form = document.getElementById("form");
 
-btnSubmit.addEventListener("click", sendForm);
+form.addEventListener("submit", sendForm);
