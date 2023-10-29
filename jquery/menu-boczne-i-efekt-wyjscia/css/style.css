@@ -44,7 +44,7 @@ body {
 .main-menu {
     position: absolute;
     top: 50px;
-    left: 0;
+    left: -240px;
     background-color: #fff;
     width: 240px;
     margin: 0;
@@ -52,6 +52,10 @@ body {
     padding-top: 20px;
     list-style-type: none;
     transition: all .4s;
+}
+
+.main-menu.open {
+    left: 0;
 }
 
 .main-menu .main-menu-item {
