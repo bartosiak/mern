@@ -1,0 +1,14 @@
+.team-item {
+    max-width: 200px;
+}
+.img-cover {
+    background-size: cover;
+}
+section,
+footer {
+    padding: 60px 0;
+}
+
+.call-to-action {
+    background-image: url(../img/slider-1.jpg);
+}
