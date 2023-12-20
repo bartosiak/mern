@@ -1,0 +1,6 @@
+Name: Clementine
+Surname: Bauch
+Street: Douglas Extension
+Zip Code: undefined
+City: McKenziehaven
+Phone: 1-463-123-4447
