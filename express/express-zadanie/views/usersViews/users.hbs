@@ -1,0 +1,19 @@
+<div class="container">
+    <h2>Users list</h2>
+
+    {{#each users}}
+    <div class="card mb-3">
+        <div class="card-body">
+            <h3 class="card-title">{{name}}</h3>
+            <Address>
+                <h4 class="card-title mt-3">Address:</h4>
+                <p class="card-text">Street: {{address.street}}</p>
+                <p class="card-text">Suite: {{address.suite}}</p>
+                <p class="card-text">City: {{address.city}}</p>
+                <p class="card-text">zipcode: {{address.zipcode}}</p>
+            </Address>
+            <a href="http://{{website}}" target="_blank" class="btn btn-primary">Visit website</a>
+        </div>
+    </div>
+    {{/each}}
+</div>
